@@ -1,0 +1,19 @@
+name: macOS CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show toolchain
+        run: swift --version
+      - name: Tests
+        run: scripts/test.sh
+      - name: Build app
+        run: scripts/build-app.sh release
+      - name: Verify signature
+        run: codesign --verify --deep --strict .build/ProjectStandard.app

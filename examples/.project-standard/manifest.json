@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "projectId": "project-standard-demo",
+  "schemes": [
+    { "id": "base", "name": "默认项目规范" },
+    { "id": "design", "name": "产品设计" },
+    { "id": "review", "name": "代码审查" }
+  ]
+}

@@ -1,0 +1,15 @@
+.DS_Store
+.build/
+DerivedData/
+.swiftpm/
+dist/
+xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.pem
+*.key
