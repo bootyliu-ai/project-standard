@@ -17,6 +17,8 @@ Define your project's prompt, rules, memory, requirements, skills, MCP tools, an
 
 ## Requirements and installation
 
+[Download the latest release](https://github.com/bootyliu-ai/project-standard/releases/latest) · [Report an issue](https://github.com/bootyliu-ai/project-standard/issues)
+
 macOS 13 or later. Universal distribution builds support Apple silicon and Intel.
 
 For source builds, install Xcode with Swift 6 or later, then run:

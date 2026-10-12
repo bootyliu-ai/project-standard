@@ -22,4 +22,4 @@
 - Distribution: `scripts/package-release.sh` builds a universal local test ZIP or a Developer ID signed, hardened, notarized and stapled ZIP. The notarized mode requires an installed signing identity and a Keychain-backed notarytool profile; credentials never enter the repository.
 - `scripts/package-dmg.sh` creates a drag-to-Applications DMG in local unnotarized or Developer ID notarized mode. Only the notarized `macos-universal.dmg` is suitable for frictionless external distribution.
 
-- Open-source preparation (2026-10-12): MIT license, bilingual README, contribution/security guides, issue/PR templates and macOS CI are included. GitHub publication remains pending authenticated access; build outputs stay excluded from source control.
+- Open-source preparation (2026-10-12): MIT license, bilingual README, contribution/security guides, issue/PR templates and macOS CI are included. Public repository: https://github.com/bootyliu-ai/project-standard. Build outputs stay excluded from source control and are distributed as explicitly unnotarized Release assets.

@@ -1,6 +1,6 @@
 # Project Standard
 
-[English](README.md) · [贡献指南](CONTRIBUTING.md) · [MIT 许可证](LICENSE)
+[下载安装包](https://github.com/bootyliu-ai/project-standard/releases/latest) · [English](README.md) · [贡献指南](CONTRIBUTING.md) · [MIT 许可证](LICENSE)
 
 Project Standard 是一个极简的 macOS 菜单栏应用。它把一个项目的 Prompt、Rules、记忆、项目要求、Skills、Tools/MCP、权限/Hooks 保存为统一方案，再由端适配器应用到 Codex、Claude Code、DCC、Smart Work 和用户添加的自研 Agent。
 
